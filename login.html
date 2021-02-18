@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/globalStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/loginStyle.css">
+</head>
+<body>
+		<div>
+			<ul>
+				<li><a href="main.html"><strong>Home</strong></a></li>
+				<li><a href="register.html"><strong>Register</strong></a></li>
+			</ul>
+		</div>
+	<header>
+		<form action="./login" method="POST" class="box absolute-center">
+			<h1>Login</h1>
+            <p class="muted"> Please enter your login and password!</p> 
+            <input type="email" name="username" placeholder="Username" required> 
+            <input type="password" name="password" placeholder="Password" required> 
+            <a class="forgot" href="#">Forgot password?</a> 
+            <input type="submit" value="Login">
+		</form>
+	</header>
+</body>
+</html>
